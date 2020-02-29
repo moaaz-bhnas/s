@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const theme = ['#D4CEC2', '#B2AFA9', '#462A1B', '#121210', '#B45122'];
+
 export const StyledHeader = styled.header`
   border: 1px solid #444;
   padding: 3rem 0;
@@ -13,6 +15,7 @@ export const Container = styled.div`
 export const StyledBanner = styled.figure`
   width: 25rem;
   margin: 0;
+  background-color: ${theme[0]};
 
   position: relative;
 
@@ -28,7 +31,7 @@ export const StyledBanner = styled.figure`
     left: -1rem;
     bottom: 1rem;
     right: 1rem;
-    background-color: #462A1B;
+    background-color: ${theme[2]};
   }
 
   &::after {
@@ -37,7 +40,7 @@ export const StyledBanner = styled.figure`
     left: 1rem;
     bottom: .5rem;
     right: -.5rem;
-    background-color: #B45122;
+    background-color: ${theme[4]};
   }
 `;
 
