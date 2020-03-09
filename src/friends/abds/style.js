@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const StyledBanner = styled.figure`
   width: 25rem;
   margin: 0;
-  background-color: ${theme[0]};
+  background: linear-gradient(90deg, ${theme[0]} 0%, rgba(255,255,255,1) 100%);
 
   position: relative;
 
@@ -47,4 +47,5 @@ export const StyledBanner = styled.figure`
 export const Img = styled.img`
   max-width: 100%;
   vertical-align: top;
+  clip-path: polygon(44% 5%, 83% 21%, 78% 70%, 21% 65%, 16% 31%);
 `;
