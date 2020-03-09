@@ -42,10 +42,17 @@ export const StyledBanner = styled.figure`
     right: -.5rem;
     background-color: ${theme[4]};
   }
+
+  &:hover {
+    img {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%)
+    }
+  }
 `;
 
 export const Img = styled.img`
   max-width: 100%;
   vertical-align: top;
   clip-path: polygon(44% 5%, 83% 21%, 78% 70%, 21% 65%, 16% 31%);
+  transition: clip-path .4s ease-in-out;
 `;
