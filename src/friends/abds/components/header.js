@@ -1,13 +1,16 @@
 import React from 'react';
 import { 
   StyledHeader,
-  Container
+  Container,
+  Title
 } from '../style';
 import Banner from './banner';
 
 const Header = () => {
   return (
     <StyledHeader>
+      <Title>Abds</Title>
+      
       <Container>
         <Banner />
       </Container>
