@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const theme = ['#D4CEC2', '#B2AFA9', '#462A1B', '#121210', '#B45122'];
 
 export const StyledHeader = styled.header`
-  border: 1px solid #444;
+  font-family: 'Marck Script', cursive;
   padding: 3rem 0;
   color: ${theme[3]};
 `;
@@ -73,7 +73,6 @@ transition: clip-path .4s ease-in-out;
 
 export const Name = styled.h2`
 font-size: 2.5rem;
-font-family: 'Marck Script', cursive;
 margin: 0;
 position: absolute;
 z-index: 1;
@@ -96,7 +95,6 @@ font-weight: 400;
 `;
 
 export const Caption = styled.figcaption`
-  border: 1px solid #000;
   margin-left: 8rem;
 `;
 
@@ -106,5 +104,5 @@ export const Job = styled.h3`
 `;
 
 export const About = styled.p`
-
+  font-size: 1.2rem;
 `;
